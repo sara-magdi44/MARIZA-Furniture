@@ -1,0 +1,345 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Zen Kurenaido", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff8f6;
+}
+
+header {
+    min-height: 640px;
+    background-image: url(../img/header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+/* banner */
+
+.banner {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: #1e1e1e94;
+    position: absolute;
+    width: 482px;
+    top: 240px;
+    height: 222px;
+    right: 50px;
+    border-radius: 25px;
+    left: 19px;
+}
+
+
+/* product-section */
+
+.product h1 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.card-item {
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: relative;
+    width: 100%;
+    color: #fff8f6;
+}
+
+.card-item:hover {
+    transition: ease-in-out 0.4s;
+    background-color: #fff8f6;
+    color: #1e1e1e;
+}
+
+.card-img img {
+    height: 207px;
+    width: 85%;
+    position: relative;
+    top: 14px;
+    border-radius: 11px;
+}
+
+.card-text h2 {
+    font-size: 13px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.icon {
+    position: absolute;
+    bottom: 48px;
+    right: 41px;
+    font-size: 16px;
+}
+
+
+/* setup */
+
+.setup-text {
+    position: relative;
+    top: 50px;
+}
+
+.setup-text h1::before {
+    content: "";
+    width: 566px;
+    overflow: hidden;
+    left: 0px;
+    height: 63px;
+    position: absolute;
+    background-color: #dccec3e0;
+    border-radius: 8px;
+    z-index: -2;
+    top: -23px;
+}
+
+
+/* setup-img */
+
+.setup1-img {
+    height: 250px;
+    position: relative;
+    background-image: url(../img/sofa.jfif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.setup2-img::before {
+    content: "";
+    height: 237px;
+    position: absolute;
+    background-color: #dccec3e0;
+    width: 265px;
+    top: 53px;
+    left: 200px;
+    border-radius: 130px;
+}
+
+.setup2-img .img1 {
+    border-radius: 10px;
+    position: relative;
+    top: 65px;
+}
+
+.setup3-img .img2 {
+    position: relative;
+    border-radius: 10px;
+    top: -11px;
+}
+
+.setup-text .btn {
+    background-color: #1e1e1e;
+    color: #fff8f6;
+    position: relative;
+    left: 250px;
+    font-size: 13px;
+}
+
+
+/* order section */
+
+
+/* right side */
+
+.order-img {
+    background-image: url(../img/sofa2.jfif);
+    background-position: center;
+    background-size: cover;
+    height: 329px;
+    width: 436px;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+/* left side */
+
+.order-slid-img {
+    position: relative;
+    top: 60px;
+}
+
+.order-slid-img h2,
+.order-slid-img2 h2 {
+    font-size: 15px;
+}
+
+.order-slid-img2 {
+    position: relative;
+    top: 30px;
+}
+
+.order-slid-img img,
+.order-slid-img2 img {
+    width: 135px;
+    border-radius: 10px;
+}
+
+
+/* buyers section */
+
+.buyers-section .avatar,
+.buyers-section h6,
+.buyers-section h1 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.buyers-section .avatar::before {
+    content: "";
+    height: 49px;
+    position: absolute;
+    background-color: #dccec3e0;
+    width: 165px;
+    top: -22px;
+    right: 163px;
+    border-radius: 12px;
+    z-index: -2;
+}
+
+.buyers-section p {
+    background-color: #dccec3e0;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+
+/* catogry */
+
+.catogry .cat-img img {
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.catogry .cat-img::after {
+    border-radius: 6px;
+    content: "";
+    background-color: #fff8f6;
+    position: absolute;
+    width: 164px;
+    height: 59px;
+    top: 291px;
+    left: 1px;
+}
+
+.cat-img h2,
+.cat-img h5 {
+    font-family: "Josefin Sans", sans-serif;
+    position: absolute;
+    z-index: 1;
+}
+
+.cat-img h2 {
+    top: 300px;
+    left: 22px;
+    font-size: 18px;
+}
+
+.cat-img h5 {
+    top: 328px;
+    left: 26px;
+    font-size: 16px;
+}
+
+.cat-icon .btn {
+    background-color: #1e1e1e;
+    color: #fff8f6;
+    width: 120px;
+}
+
+.cat-icon span {
+    font-size: 23px;
+    position: absolute;
+    left: 37px;
+}
+
+
+/* inner-catalog */
+
+.inner-catalog {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.inner-text h2::before {
+    content: "";
+    background-color: #dccec3e0;
+    height: 50px;
+    width: 209px;
+    position: absolute;
+    z-index: -1;
+    top: -17px;
+    left: 15px;
+    border-radius: 10px;
+}
+
+.inner-text p,
+.inner-text h5,
+.inner-text h3,
+.inner-text dl {
+    background-color: #dccec3e0;
+    border-radius: 10px;
+    padding: 11px;
+}
+
+.inner-text a {
+    position: relative;
+    top: -50px;
+    right: 79px;
+    font-size: 19px;
+}
+
+.color-options {
+    left: 130px;
+    position: relative;
+    bottom: 48px;
+}
+
+.color-options span {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: #865439;
+    border-radius: 20px;
+    margin-left: 5px;
+    display: inline-flex;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.color-options span:nth-child(2) {
+    background-color: #000d6b;
+}
+
+.color-options span:nth-child(3) {
+    background-color: #316b83;
+}
+
+.color-options span:nth-child(4) {
+    background-color: #9a9483;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #1e1e1e;
+    height: 250px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.footer-text ul {
+    display: block;
+    list-style: none;
+    text-align: left;
+    font-size: 14px;
+}
+
+.footer-text h2 {
+    font-size: 20px;
+}
